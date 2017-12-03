@@ -3,7 +3,7 @@ variable "region" {
 }
 
 variable "prefix" {
-  descriptopn = "name of our org"
+  description = "name of our org"
 }
 
 variable "environment" {
@@ -19,10 +19,12 @@ variable "vpc_cidr" {
 }
 
 variable "public_subnets" {
+  default = []
   description = "public subnet list to populate"
 }
 
 variable "private_subnets" {
+  default = []
   description = "private subnet list to populate"
 }
 
