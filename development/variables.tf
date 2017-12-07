@@ -3,28 +3,28 @@ variable "region" {
 }
 
 variable "prefix" {
-  description = "name of our org"
+  description = "prefix"
 }
 
 variable "environment" {
-  description = "env"
+  description = "environment"
 }
 
 variable "key_name" {
-  description = "aws key pair for resources"
+  description = "aws key pair"
 }
 
 variable "vpc_cidr" {
-  description = "cidr of the vpc"
+  description = "vpc_cidr"
 }
 
 variable "public_subnets" {
   default = []
-  description = "public subnet list to populate"
+  description = "public subnets to populate"
 }
 
 variable "private_subnets" {
   default = []
-  description = "private subnet list to populate"
+  description = "private subnets to populate"
 }
 
