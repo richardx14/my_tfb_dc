@@ -1,3 +1,7 @@
 terraform.tfstate
+terraform.tfstate.backup
 .terraform/
 development/terraform.tfvars
+production/terraform.tfvars
+devbackup/
+development/.kitchen/logs/
